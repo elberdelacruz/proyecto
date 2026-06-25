@@ -1,0 +1,65 @@
+{
+  "niveles": [
+    { "id": 1, "nombre": "Novata", "xpMinimo": 0, "xpMaximo": 100, "icono": "🌱", "color": "#4CAF50" },
+    { "id": 2, "nombre": "Organizada", "xpMinimo": 100, "xpMaximo": 300, "icono": "📋", "color": "#2196F3" },
+    { "id": 3, "nombre": "Responsable", "xpMinimo": 300, "xpMaximo": 600, "icono": "⭐", "color": "#9C27B0" },
+    { "id": 4, "nombre": "Ejemplar", "xpMinimo": 600, "xpMaximo": 1000, "icono": "🏆", "color": "#FF9800" },
+    { "id": 5, "nombre": "Líder Escolar", "xpMinimo": 1000, "xpMaximo": Infinity, "icono": "👑", "color": "#F44336" }
+  ],
+  "logros": [
+    { "id": "primera-asistencia", "nombre": "Primer Paso", "descripcion": "Registra tu primera asistencia", "icono": "🚶", "recompensa": { "xp": 10, "puntos": 5 } },
+    { "id": "semana-perfecta", "nombre": "Semana Dorada", "descripcion": "Asistencia perfecta durante una semana", "icono": "🌟", "recompensa": { "xp": 50, "puntos": 25 } },
+    { "id": "mes-perfecto", "nombre": "Mes de Excelencia", "descripcion": "Mes completo sin faltas", "icono": "📅", "recompensa": { "xp": 100, "puntos": 50 } },
+    { "id": "racha-7", "nombre": "Constante", "descripcion": "Mantén una racha de 7 días de asistencia", "icono": "🔥", "recompensa": { "xp": 75, "puntos": 35 } },
+    { "id": "racha-30", "nombre": "Inquebrantable", "descripcion": "Mantén una racha de 30 días de asistencia", "icono": "💎", "recompensa": { "xp": 200, "puntos": 100 } },
+    { "id": "puntual-7", "nombre": "Relojito", "descripcion": "7 días consecutivos llegando puntual", "icono": "⏰", "recompensa": { "xp": 60, "puntos": 30 } },
+    { "id": "puntual-30", "nombre": "Maestra del Tiempo", "descripcion": "30 días consecutivos llegando puntual", "icono": "⌛", "recompensa": { "xp": 150, "puntos": 75 } },
+    { "id": "nivel-3", "nombre": "Ascendiendo", "descripcion": "Alcanza el nivel Responsable", "icono": "📈", "recompensa": { "xp": 100, "puntos": 50 } },
+    { "id": "nivel-5", "nombre": "Cima del Éxito", "descripcion": "Alcanza el nivel Líder Escolar", "icono": "🗻", "recompensa": { "xp": 300, "puntos": 150 } },
+    { "id": "mascota-evolucion-1", "nombre": "Primera Evolución", "descripcion": "Evoluciona tu mascota por primera vez", "icono": "🐣", "recompensa": { "xp": 50, "puntos": 25 } },
+    { "id": "mascota-evolucion-3", "nombre": "Compañera Fiel", "descripcion": "Evoluciona tu mascota 3 veces", "icono": "🦋", "recompensa": { "xp": 150, "puntos": 75 } },
+    { "id": "misiones-5", "nombre": "Aventurera", "descripcion": "Completa 5 misiones", "icono": "🗺️", "recompensa": { "xp": 80, "puntos": 40 } },
+    { "id": "misiones-15", "nombre": "Exploradora Incansable", "descripcion": "Completa 15 misiones", "icono": "🌍", "recompensa": { "xp": 200, "puntos": 100 } },
+    { "id": "minijuego-1", "nombre": "Jugona", "descripcion": "Juega tu primer minijuego", "icono": "🎮", "recompensa": { "xp": 20, "puntos": 10 } },
+    { "id": "minijuego-10", "nombre": "Gamer Elite", "descripcion": "Juega 10 minijuegos", "icono": "🕹️", "recompensa": { "xp": 100, "puntos": 50 } },
+    { "id": "top-3-ranking", "nombre": "Podio de Honor", "descripcion": "Estar en el top 3 del ranking general", "icono": "🥇", "recompensa": { "xp": 120, "puntos": 60 } }
+  ],
+  "misiones": [
+    { "id": "m1", "titulo": "Preparar la mochila", "descripcion": "Organiza tu mochila la noche anterior", "puntos": 15, "xp": 20, "tipo": "recomendacion" },
+    { "id": "m2", "titulo": "Alarma matutina", "descripcion": "Programa una alarma para llegar temprano", "puntos": 15, "xp": 20, "tipo": "recomendacion" },
+    { "id": "m3", "titulo": "Horario de estudio", "descripcion": "Organiza tu horario de estudio semanal", "puntos": 20, "xp": 25, "tipo": "recomendacion" },
+    { "id": "m4", "titulo": "Dormir temprano", "descripcion": "Duérmete antes de las 10pm por 3 días seguidos", "puntos": 25, "xp": 30, "tipo": "recomendacion" },
+    { "id": "m5", "titulo": "Revisar horario", "descripcion": "Revisa tu horario escolar cada mañana", "puntos": 10, "xp": 15, "tipo": "recomendacion" },
+    { "id": "d1", "titulo": "Semana perfecta", "descripcion": "No faltes ni llegues tarde toda la semana", "puntos": 50, "xp": 60, "tipo": "desafio" },
+    { "id": "d2", "titulo": "Racha de 5 días", "descripcion": "Acumula 5 días consecutivos de asistencia", "puntos": 30, "xp": 40, "tipo": "desafio" },
+    { "id": "d3", "titulo": "Puntualidad extrema", "descripcion": "Llega puntual 10 días seguidos", "puntos": 40, "xp": 50, "tipo": "desafio" },
+    { "id": "d4", "titulo": "Ayuda a una compañera", "descripcion": "Ayuda a otra estudiante a mejorar su asistencia", "puntos": 35, "xp": 45, "tipo": "desafio" }
+  ],
+  "recomendaciones": [
+    { "id": "r1", "titulo": "Prepara tu mochila", "descripcion": "Organizar tus útiles la noche anterior te ayudará a salir a tiempo.", "accion": "Organizar mochila", "misionId": "m1" },
+    { "id": "r2", "titulo": "Programa alarmas", "descripcion": "Poner varias alarmas con margen de tiempo evita contratiempos.", "accion": "Configurar alarmas", "misionId": "m2" },
+    { "id": "r3", "titulo": "Duerme mejor", "descripcion": "Dormir al menos 8 horas mejora tu concentración y puntualidad.", "accion": "Mejorar sueño", "misionId": "m4" },
+    { "id": "r4", "titulo": "Revisa tu horario", "descripcion": "Saber qué clases tienes cada día te ayuda a prepararte mejor.", "accion": "Revisar horario", "misionId": "m5" },
+    { "id": "r5", "titulo": "Desayuna tranquila", "descripcion": "Levantarte 15 min antes te permite desayunar sin prisas.", "accion": "Despertar más temprano", "misionId": "m2" }
+  ],
+  "aparienciasMascota": [
+    { "nivel": 1, "nombre": "Huevito", "emoji": "🥚", "color": "#FFF9C4", "tamano": 40, "accesorios": [] },
+    { "nivel": 2, "nombre": "Pollito", "emoji": "🐤", "color": "#FFF176", "tamano": 50, "accesorios": ["lentes"] },
+    { "nivel": 3, "nombre": "Gatita", "emoji": "🐱", "color": "#FFCC80", "tamano": 60, "accesorios": ["lentes", "moño"] },
+    { "nivel": 4, "nombre": "Zorra Estelar", "emoji": "🦊", "color": "#FF8A65", "tamano": 70, "accesorios": ["lentes", "moño", "capa"] },
+    { "nivel": 5, "nombre": "Dragón Guardián", "emoji": "🐉", "color": "#CE93D8", "tamano": 85, "accesorios": ["lentes", "corona", "capa", "varita"] }
+  ],
+  "minijuegos": [
+    { "id": "memoria", "nombre": "Memoria Escolar", "descripcion": "Encuentra los pares de útiles escolares", "icono": "🧠", "desbloqueo": "logro:primera-asistencia", "tipo": "memoria" },
+    { "id": "organizacion", "nombre": "Organiza tu tiempo", "descripcion": "Ordena las actividades en el horario correcto", "icono": "📅", "desbloqueo": "nivel:2", "tipo": "arrastrar" },
+    { "id": "concentracion", "nombre": "Encuentra la diferencia", "descripcion": "Encuentra las diferencias en los horarios", "icono": "🔍", "desbloqueo": "logro:racha-7", "tipo": "diferencias" },
+    { "id": "logica", "nombre": "Ruta escolar", "descripcion": "Encuentra la ruta más eficiente a la escuela", "icono": "🧩", "desbloqueo": "nivel:3", "tipo": "laberinto" }
+  ],
+  "emocionesMascota": [
+    { "nombre": "feliz", "emoji": "😊", "requisito": "asistencia >= 80%" },
+    { "nombre": "emocionada", "emoji": "🤩", "requisito": "racha >= 5" },
+    { "nombre": "orgullosa", "emoji": "😌", "requisito": "logro nuevo" },
+    { "nombre": "triste", "emoji": "😢", "requisito": "falta injustificada" },
+    { "nombre": "animadora", "emoji": "💪", "requisito": "mision completada" }
+  ]
+}
